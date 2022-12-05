@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Card</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="ComputerCard">
+            <img src="./assets/img/Computador-Gamer.png" alt="Laptop Gamer">
+            <h2>Computador Gamer ASUS</h2>
+            <input type="text" placeholder="Cantidad" id="Cantidad">
+            <input type="text" placeholder="Color" id="Color">
+            <p>Precio: <span id="Precio">400000</span></p>
+            <button id="boton" onclick="Calculator()">Calcular Total</button>
+        </div>
+        <div class="card2">
+            <div>Precio: $ <span id="Resultado_Total">0</span></div>
+            <div>Cantidad: <span id="Resultado_Cantidad">0</span></div>
+            <div>Color: <div id="Resultado_Color" class="Resultado_Color"></div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
